@@ -1,0 +1,42 @@
+.Employee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 10px 15px -4px rgb(241, 199, 121);
+    width: 40%;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 80px;
+   
+}
+.Employee p{
+    width: 80%;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-style: italic;
+}
+.Employee .item-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Employee button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: wheat;
+    border: none;
+    border-radius: 30px;
+    color: #4e5345;
+    margin-bottom: 20px;
+    
+}
+.Employee button:hover{
+    background-color: rgb(248, 203, 119);
+    cursor: pointer;
+
+}
